@@ -1,0 +1,1439 @@
+
+@import "compass/css3";
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400,700';
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url("imagens/BBww3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    //background: -webkit-radial-gradient(center, #c2e59c, #64b3f4);
+    //background: radial-gradient(center, #c2e59c, #64b3f4);
+    -webkit-font-smoothing: subpixel-antialiased;
+    //opacity : 0.2;
+}
+
+
+
+.container {
+    position: relative;
+    top: 20%;
+    left: 160%;
+    //-webkit-transform: translate(-50%, -50%);
+   // transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+    margin-top: 40px;
+   // margin-left: 200px;
+
+  border: 5px solid #BEBEBE;        
+}
+
+.test1 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-image:url("imagens/snap.jpg");
+    text-align: center;
+    font-size: 30px;
+    color: #500716;
+    border: solid 1px #F5F5F5;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.test1:hover {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #c2e59c;
+}
+
+.test1:nth-child(4),
+.test1:nth-child(7) {
+    clear: left;
+}
+
+.test2 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-image:url("imagens/insta.jpg");
+    text-align: center;
+    font-size: 30px;
+    color: #500716;
+    border: solid 1px #F5F5F5;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.test2:hover {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #c2e59c;
+}
+
+.test2:nth-child(4),
+.test2:nth-child(7) {
+    clear: left;
+}
+
+.test3 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: #000000;
+    background-image:url("imagens/gmail.jpg");
+
+    text-align: center;
+    font-size: 30px;
+    color: #500716;
+    border: solid 1px #F5F5F5;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.test3:hover {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #c2e59c;
+}
+
+.test3:nth-child(4),
+.test3:nth-child(7) {
+    clear: left;
+}
+
+.test4 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: #000000;
+    background-image:url("imagens/face.jpg");
+    text-align: center;
+    font-size: 30px;
+    color: #500716;
+    border: solid 1px #F5F5F5;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.test4:hover {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #c2e59c;
+}
+
+.test4:nth-child(4),
+.test4:nth-child(7) {
+    clear: left;
+}
+
+.test5 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-image:url("imagens/in.jpg");
+    text-align: center;
+    font-size: 30px;
+    color: #500716;
+    border: solid 1px #F5F5F5;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.test5:hover {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #c2e59c;
+}
+
+.test5:nth-child(4),
+.test5:nth-child(7) {
+    clear: left;
+}
+
+.test6 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-image:url("imagens/pint.jpg");
+    text-align: center;
+    font-size: 30px;
+    color: #500716;
+    border: solid 1px #F5F5F5;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.test6:hover {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #c2e59c;
+}
+
+.test6:nth-child(4),
+.test6:nth-child(7) {
+    clear: left;
+}
+
+.test7 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-image:url("imagens/tumb.jpg");
+    text-align: center;
+    font-size: 30px;
+    color: #500716;
+    border: solid 1px #F5F5F5;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.test7:hover {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #c2e59c;
+}
+
+.test7:nth-child(4),
+.test7:nth-child(7) {
+    clear: left;
+}
+
+.test8 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-image:url("imagens/skype.jpg");
+    text-align: center;
+    font-size: 30px;
+    color: #500716;
+    border: solid 1px #F5F5F5;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.test8:nth-child(4),
+.test8:nth-child(7) {
+    clear: left;
+}
+
+.test8:hover {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #c2e59c;
+}
+
+.test9 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-image:url("imagens/twitter.jpg");
+    text-align: center;
+    font-size: 30px;
+    color: #500716;
+    border: solid 1px #F5F5F5;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.test9:hover {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #c2e59c;
+}
+
+
+.test9:nth-child(4),
+.test9:nth-child(7) {
+    clear: left;
+}
+
+
+
+
+
+
+/*Info screen*/
+
+#info-button {
+    @extend .flex-center;
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    z-index: 13;
+    width: 30px;
+    height: 30px;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#info-screen {
+    @extend .fixed-full-width;
+    z-index: 11;
+    right: 5px;
+
+}
+
+#info-shade {
+    //@extend .fixed-full-width;
+    background-color: #222;
+    width: 2000px;
+    height: 1000px;
+    opacity: 0.90;
+    margin-top: -350px;
+    margin-left: -30px;
+    //background: rgba(10,23,55,0.5);
+
+}
+
+#info-text {
+    @extend .fixed-full-width;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    font-size: 0.9em;
+    color: white;
+    margin-top: 40px;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fixed-full-width{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+
+a:hover{
+
+    color: #000;
+}
+
+
+
+.animate
+{
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+    position: relative;
+    padding: 05px 20px;
+    margin: 8px 90px 200px -60px;
+    float: left;
+
+    border-radius: 10px;
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    font-size: 15px;
+    color: #FFF;
+    text-decoration: none;	
+}
+
+.action-button:active
+{
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+    text-decoration:none; 
+    color: #000
+}
+.action-button:hover{
+
+    text-decoration:none; 
+    color: #fff
+}
+
+.blue
+{
+    top: 7px;
+    left: 1090px;
+    background-color: #000;
+    border-bottom: 1px solid #BEBEBE;
+    text-shadow: 0px -0.1px #BEBEBE;
+}
+
+
+* { //box-sizing: border-box; font-family: Avenir; }
+    div#profile-container { //display: flex; justify-content: space-between; }
+                            div#profile-container figure { 
+                                //display: inline-block;
+                            }
+                            div#profile-container figure div {
+                                border-radius: 50%;
+                                overflow: hidden; 
+                                background-blend-mode: luminosity;
+                                border: 5px solid #000;
+                                width: 10rem; height: 10rem;
+                                transition: .4s linear;
+                                will-change: background-color;
+                                margin-top: -30px;
+                                margin-left: -50px;
+                                position: absolute;
+                            }
+                            div#profile-container figure div:hover { 
+                                border: 8px solid #000;
+                                background-color: transparent;
+                            }
+                            div#profile-container figcaption { 
+                                margin-top: 1rem;
+                                text-align: center; 
+                            }
+                            .log {
+                                background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/profile1.jpg) no-repeat center 
+                                    hsl(200,50%,50%);
+                                background-size: cover;
+                            }
+                            figcaption{
+
+                                margin-left: 100px;
+                                margin-top: 100px;
+                                position: relative;
+                            }
+
+
+                            div#header usernameHead { 
+                                background-color: #000; 
+                            }
+
+                            .dropdown {
+                                position: relative;
+                                display: inline-block;
+                            }
+
+                            .dropdown-content {
+                                display: none;
+                                position: absolute;
+                                background-color: #000;
+                                min-width: 160px;
+                                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                margin-top: 125px;
+                                margin-left: -10px;
+                            }
+
+                            .dropdown-content a {
+
+                                font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+                                font-size: 15px;
+                                color: #fefefe;
+                                padding: 12px 16px;
+                                text-decoration: none;
+                                display: block;
+
+                            }
+
+                            .dropdown-content a:hover {background-color: #f1f1f1;
+                                                       text-decoration:none; 
+                                                       color: #000;
+
+                            }
+
+                            .dropdown:hover .dropdown-content {
+                                display: block;
+                            }
+
+                            .dropdown:hover .dropbtn {
+                                background-color: #3e8e41;
+                            }
+
+
+                            .snapchat{
+
+                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                color: #000;
+                                font-size: 20px;
+                                margin-top: 20px;
+
+                            }
+
+                            .invoice1 {
+                                background-color: #fffc00;
+                                border-radius: 10px;
+                                box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.13);
+                                margin-top:30px;
+                                @include margin(50px 0px);
+                                @include padding(50px 30px 30px);
+
+                                main {
+                                    border: 1px dashed $light-gray;
+                                    border-left-width: 0px;
+                                    border-right-width: 0px;
+                                    @include padding(30px null);
+
+                                }
+                            }
+
+                            .instagram{
+
+                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                color: #fff;
+                                font-size: 20px;
+                                margin-top: 40px;
+                            }
+
+                            .invoice2 {
+                                background-color: #125688;
+                                border-radius: 10px;
+                                box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.13);
+                                margin-top:30px;
+                                @include margin(50px 0px);
+                                @include padding(50px 30px 30px);
+
+                                main {
+                                    border: 1px dashed $light-gray;
+                                    border-left-width: 0px;
+                                    border-right-width: 0px;
+                                    @include padding(30px null);
+
+                                }
+                            }
+
+                            .gmail{
+
+                                font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
+                                color: #fff;
+                                font-size: 18px;
+                                margin-top: 60px;
+                            }
+
+                            .invoice3 {
+                                background-color: #dd4b39;
+                                border-radius: 10px;
+                                box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.13);
+                                margin-top:30px;
+                                @include margin(50px 0px);
+                                @include padding(50px 30px 30px);
+
+                                main {
+                                    border: 1px dashed $light-gray;
+                                    border-left-width: 0px;
+                                    border-right-width: 0px;
+                                    @include padding(30px null);
+
+                                }
+                            }
+                            .facebook{
+
+                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                color: #fff;
+                                font-size: 18px;
+                                margin-top: 00px;
+
+
+                            }
+
+                            .invoice4 {
+                                background-color: #3b5998;
+                                border-radius: 10px;
+                                box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.13);
+                                margin-top:30px;
+                                @include margin(50px 0px);
+                                @include padding(50px 30px 30px);
+
+                                main {
+                                    border: 1px dashed $light-gray;
+                                    border-left-width: 0px;
+                                    border-right-width: 0px;
+                                    @include padding(30px null);
+
+                                }
+                            }
+
+                            .linkedin{
+
+                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                color: #fff;
+                                font-size: 20px;
+                                margin-top: 40px;
+                            }
+
+                            .invoice5 {
+                                background-color: #007bb5;
+                                border-radius: 10px;
+                                box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.13);
+                                margin-top:30px;
+                                @include margin(50px 0px);
+                                @include padding(50px 30px 30px);
+
+                                main {
+                                    border: 1px dashed $light-gray;
+                                    border-left-width: 0px;
+                                    border-right-width: 0px;
+                                    @include padding(30px null);
+
+                                }
+                            }
+
+                            .pinterest{
+
+                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                color: #fff;
+                                font-size: 20px;
+                                margin-top: 40px;
+                            }
+
+                            .invoice6 {
+                                background-color: #cb2027;
+                                border-radius: 10px;
+                                box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.13);
+                                margin-top:30px;
+                                @include margin(50px 0px);
+                                @include padding(50px 30px 30px);
+
+                                main {
+                                    border: 1px dashed $light-gray;
+                                    border-left-width: 0px;
+                                    border-right-width: 0px;
+                                    @include padding(30px null);
+
+                                }
+                            }
+
+                            .tumblr{
+
+                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                color: #fff;
+                                font-size: 20px;
+                                margin-top: 40px;
+                            }
+
+                            .invoice7 {
+                                background-color: #32506d;
+                                border-radius: 10px;
+                                box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.13);
+                                margin-top:30px;
+                                @include margin(50px 0px);
+                                @include padding(50px 30px 30px);
+
+                                main {
+                                    border: 1px dashed $light-gray;
+                                    border-left-width: 0px;
+                                    border-right-width: 0px;
+                                    @include padding(30px null);
+
+                                }
+                            }
+
+                            .skype{
+
+                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                color: #fff;
+                                font-size: 20px;
+                                margin-top: 40px;
+                            }
+
+                            .invoice8 {
+                                background-color: #00AFF0;
+                                border-radius: 10px;
+                                box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.13);
+                                margin-top:30px;
+                                @include margin(50px 0px);
+                                @include padding(50px 30px 30px);
+
+                                main {
+                                    border: 1px dashed $light-gray;
+                                    border-left-width: 0px;
+                                    border-right-width: 0px;
+                                    @include padding(30px null);
+
+                                }
+                            }
+
+                            .twitter{
+
+                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                color: #fff;
+                                font-size: 20px;
+                                margin-top: 40px;
+                            }
+
+                            .invoice9 {
+                                background-color:#55acee;
+                                border-radius: 10px;
+                                box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.13);
+                                margin-top:30px;
+                                @include margin(50px 0px);
+                                @include padding(50px 30px 30px);
+
+                                main {
+                                    border: 1px dashed $light-gray;
+                                    border-left-width: 0px;
+                                    border-right-width: 0px;
+                                    @include padding(30px null);
+
+                                }
+                            }
+
+                            button {
+                                padding: 15px 40px;
+                                //position: absolute;
+                                background: #0099CC;
+                                border: none;
+                                border-radius: 4px;
+
+                                color: white;
+
+                                animation: attention 5s ease infinite;
+                                left: 100px;
+                            }
+
+                            .w3-modal-content
+                            {
+                                border: 0px solid #000;
+                                position: relative;
+
+                                height: 400px;
+
+                                margin-left: 800px;
+                            }
+
+                            .w3-container{
+                                width: 320px;
+                                height: 30px;
+                                margin-top: 20px;
+                                position: relative;
+
+                            }
+
+
+                            .w3-modal{
+
+                                width: -100px;
+                                height: -50px;
+                                position: relative;
+
+                            }
+
+                            .w3-btn{
+                                margin-top: 95px;
+
+                            }
+                            w3-btnig{
+                                margin-top: 45px;  
+
+                            }
+
+                            .imgn{
+                                margin-left: -5px;
+                                margin-top: 02px;
+                                width: 200px;
+                                height: 55px;
+                            }
+
+                            tablink{
+
+                                margin-left: 90px;
+                            }
+
+                            .modal-body{
+                                border: 0px solid #000;
+                                position: relative;
+                                margin-top: 70px;
+                                width: 400px; /* Could be more or less, depending on screen size */
+                                height: 350px;
+
+
+                            }
+
+
+                            button.bt{
+                                background: #000;
+                                color:#fff;
+                                border:none;
+                                position:relative;
+                                height:40px;
+                                width: 100px;
+                                font-size:1.2em;
+                                padding:0 0.1em;
+                                cursor:pointer;
+                                transition:800ms ease all;
+                                outline:none;
+                                font-variant-position:normal;
+
+                                margin-top: 00px;
+                                margin-left: 90px;
+                            }
+                            button.bt:hover{
+                                background:#fff;
+                                color:#000;
+                            }
+                            button.bt:before,button.bt:after{
+                                content:'';
+                                position:absolute;
+                                top:0;
+                                right:0;
+                                height:2px;
+                                width:0;
+                                background: #000;
+                                transition:400ms ease all;
+                            }
+                            button.bt:after{
+                                right:inherit;
+                                top:inherit;
+                                left:0;
+                                bottom:0;
+                            }
+                            button.bt:hover:before,button.bt:hover:after{
+                                width:100%;
+                                transition:800ms ease all;
+                            }
+
+
+                            input[type=submit] {
+                                background:none;
+                                padding:10px;
+                                border: solid 2px #000;
+                            }
+
+                            h4{
+
+                                color: #000;
+                                font-size: 30px;
+                                font-weight: 100;
+                                margin: 0 0 2em;
+
+                            }
+
+
+
+                            input.form-control{
+
+                                width: 250px;
+                                height: 30px;
+                                border: solid 1px #000;
+                            }
+                            input.textbox{
+
+                                border: solid 1px #000;
+                            }
+
+                            select.select{
+
+                                margin-top: -20px;
+                            }
+
+
+
+                            .modal-body{
+                                border: 0px solid #000;
+                                position: relative;
+                                margin-top: -15px;
+                                width: 400px; /* Could be more or less, depending on screen size */
+                                height: 350px;
+
+
+                            }
+
+                            .w3-container.w3-black{
+
+                                width: 320px; /* Could be more or less, depending on screen size */
+                                height: 50px;
+
+                            }
+
+                            BTNS{
+
+                                margin-left: -50px;
+
+                            }
+                            header img {
+                                border-radius: 20%;
+                                margin: 20px auto;
+                                display: block;
+                                width: 70px;
+                                border: 3px solid #fff;
+                            }
+
+                            aside {
+                                //border-top: 0px solid #26A69A;
+                                // border-bottom: 0px solid #00695C;
+                                border-radius: 20%;
+                                margin: 0 auto;
+                                margin-left: -05px;
+                                margin-top: -160px;
+                                display: block;
+                                height: 110px;
+                                width: 120px;
+                                background: url("imagens/black-white.jpg ");
+                                background-size: cover;
+                                overflow: hidden;
+                                box-shadow: 0 0 100px 10px #fff;
+                                transition: all ease 0.3s;
+                                position: absolute;
+                            }
+
+                            aside:hover {
+                                // border-top: 4px solid #26A69A;
+                                // border-bottom: 4px solid #00695C;
+                                border-radius: 5px;
+                                height: 380px;
+                                width: 250px;
+                                opacity: 0.8px;
+                                box-shadow: 0 0 70px 10px #fff;
+                            }
+
+                            aside:hover header img {
+                                animation: profile_image 2000ms linear both;
+                                animation-delay: 0.5s;
+                            }
+
+                            .prof {
+                                text-align: center;
+                            }
+
+                            .prof h1 {
+                                position: relative;
+                                text-align: center;
+                                color: #fff;
+                                text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+                                font-size: 25px;
+                                line-height: 15px;
+                                display: inline-block;
+                                padding: 5px;
+                                transition: all ease 0.250s;
+                                border-top: 1px solid #fff;
+                                border-bottom: 1px solid #fff;
+                            }
+
+                            aside:hover header h1 {
+                                margin-top: 0px;
+                                outline: 0 solid #fff;
+                                border-top: 0px solid #fff;
+                                border-bottom: 1px solid #fff;
+                            }
+
+                            .prof h2 {
+                                text-align: center;
+                                color: #fff;
+                                text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+                                font-size: 12px;
+                                font-weight: normal;
+                                line-height: 0px;
+                                margin: 0;
+                            }
+
+                            .profile-bio {
+                                margin-top: 20px;
+                                padding: 1px 20px 10px 20px !important;
+                                transition: all linear 1.5s;
+                                color: #fff;
+                                font-size: 14px;
+                                opacity: 0;
+                                background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.42) 49%, rgba(0, 0, 0, 0.61) 100%);
+                            }
+
+                            aside:hover .profile-bio {
+                                opacity: 1;
+                            }
+
+                            .profile-bio p:first-child {
+                                text-align: center;
+                                font-size: 16px;
+                            }
+
+                            .profile-social-links {
+                                position: relative;
+                                margin-top: -440px;
+                                margin-left: -100px;
+                                list-style-type: none;
+                                opacity: 0;
+                                transition: all ease 0.5s;
+                            }
+
+                            aside:hover .profile-social-links {
+                                margin-left: -30px;
+                                opacity: 1;
+                            }
+
+                            .profile-social-links li img {
+                                width: 10px;
+                                background: #fff;
+                                border-radius: 05%;
+                                padding: 2px;
+                            }
+
+
+
+
+
+                            .Content{
+                                padding: 1em;
+                            }
+    }
+    .Btn, button {
+        color: #fff;
+        background-color: $color-alpha;
+        border:	1px solid $color-alpha;
+        text-align: center;
+        display: inline-block;
+        vertical-align:	middle;
+        white-space:	nowrap;
+        margin: 0.6em 0.6em .6em 0;
+        padding: 0.35em .7em 0.4em;
+        text-decoration: none; 
+        width: auto;
+        position: relative;
+        border-radius:  4px;
+        user-select:none;
+        outline:	none;
+        @include transition(all, 0.25s, ease-in);
+
+        &:hover {
+            //background-color: lighten($color-alpha,10);
+            background-color:	#ddd;
+            color:	#333;
+            @include transition(all, 0.25s, ease-in); 
+        }
+
+        &:active {
+            background-color: #ccc;
+            box-shadow: 0 !important;
+            top: 2px;
+            @include transition(background-color, 0.2s, linear);
+            box-shadow:	inset 0 3px 5px rgba(0,0,0,.125);
+        }
+    }
+    form{
+        display: table;
+    }
+    input{
+        border: 2px solid #eee;
+        padding: 1em .25em;
+        width: 96%;
+        color: #999;
+        border-radius: $base-radius;
+    }
+    .left, .right{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .left{
+        width: 6em;
+        min-width: 6em;
+        padding-right: 1em;
+
+        img{
+            width: 100%;
+        }
+    }
+    .img-holder{
+        display: block;
+        vertical-align: middle;
+        width: 2em;
+        height: 2em;
+
+        img{
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+    .file-wrapper {
+        cursor: pointer;
+        display: inline-block;
+        overflow: hidden;
+        position: relative; 
+
+        &:hover .Btn{
+            background-color:	lighten($color-alpha, 10%) !important;
+        } 
+    }
+
+    .file-wrapper input {
+        cursor: pointer;
+        font-size: 100px;
+        height: 100%;
+        filter: alpha(opacity=1);
+        -moz-opacity: 0.01;
+        opacity: 0.01;
+        position: absolute;
+        right: 0;
+        top: 0; 
+        z-index:	9;
+    }
+
+    .cabecalho{
+
+        background-color:#000;
+        width:1285px;
+        height:150px;
+        margin-left:-20px;
+        margin-top:-25px;
+        background: rgba(59, 54, 54, 0.4);
+        background-attachment: fixed;
+        //opacity: 0.4;
+        position:relative;
+
+    }
+
+
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        box-sizing: border-box;
+    }
+    .float-right{
+        float: right;
+    }
+    .fa{
+        font-size: .8em;
+        line-height: 22px !important;
+    }
+    dropdown{
+        display: inline-block;
+        margin: 20px 50px; 
+    }
+    dropdown label, dropdown ul li{
+        display: block;
+        width: 200px;
+        background: #ECF0F1;
+        padding: 15px 20px;
+    }
+    dropdown label:hover, dropdown ul li:hover{
+        background: #1ABC9C;
+        color: white;
+        cursor: pointer;
+    }
+    dropdown label{
+        color: #1ABC9C;
+        border-left: 4px solid #1ABC9C;
+        border-radius: 0 5px 0 0; 
+        position: relative;
+        z-index: 2;
+    }
+    dropdown input{
+        display: none;
+    }
+    dropdown input ~ ul{
+        position: relative;
+        visibility: hidden;
+        opacity: 0;
+        top: -20px;
+        z-index: 1;
+    }
+    dropdown input:checked + label{
+        background: #1ABC9C;
+        color: white;
+    }
+
+    dropdown input:checked ~ ul{
+        visibility: visible;
+        opacity: 1;
+        top: 0;
+    }
+
+
+    nav {
+        max-width: 960px;
+        width: 800px;
+        position: relative;
+        /* The mask-image gives us some extra fading. It is not necessary but without this, you can't face out the box-shadows. This clips our menu */
+        mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+        margin: 0 auto;
+        margin-top: -90px;
+        margin-left: 240px;
+        /* Using padding instead of margin for the top and bottom here will keep our box-shadow visible and not affected by the mask-image */
+        padding: 75px 0;
+    }
+
+    nav ul {
+        text-align: center;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+        width: 100%;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        padding: 20px;
+        font-family: "Roboto";
+        color: rgba(0, 0, 0, 0.5);
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+        font-size: 25px;
+        text-decoration: none;
+        display: block;
+    }
+
+    nav ul li a:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+        background: rgba(255, 255, 255, 0.1);
+        color: rgba(0, 0, 0, 0.7);
+        text-decoration:none; 
+    }
+
+    .lgout{
+        width: 130px;
+        height: 70px;
+        
+    }
+    .logout {
+        background:url('https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login-hover.png') no-repeat 3px 6px #484B4F;
+        width: 110px;
+        height: 40px;
+        cursor:pointer;
+        border-radius:50px;
+        padding:10px 20px 10px 0;
+        position: fixed;
+        //color:White;
+        font-size:14px;
+        text-align:left;
+        text-indent:38px;
+        display:block;
+        margin-top:120px;
+        margin-left: 105px;
+
+        /* Animations: */
+        -webkit-transition-timing-function: ease-in-out;
+        -webkit-transition-duration: .4s;
+        -webkit-transition-property: all;
+
+        -moz-transition-timing-function: ease-in-out;
+        -moz-transition-duration: .4s;
+        -moz-transition-property: all;
+    }
+
+    .logout:hover {
+        background-image: url( 'https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login.png' );
+        background-position: 65px 6px;
+        text-indent: 15px;  
+    }
+    .File{
+        padding: 5px;
+    
+    $colors: #E74C3C, #0072B5, #2C3E50;
+
+    @for $i from 1 through length($colors) {
+        dropdown ul li:nth-child(#{$i}) {
+            border-left: 4px solid nth($colors, $i);
+            .fa{
+                color: nth($colors, $i);
+            }
+            &:hover {
+                background: nth($colors, $i);
+                color: white;
+                .fa{
+                    color: white; 
+                }
+            }
+        }
+    }
+
+
+
+
+    .animate{
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -ms-transition: all .3s;
+        transition: all .3s;  
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden; /* Chrome and Safari */
+        -moz-backface-visibility:hidden; /* Firefox */
+        -ms-backface-visibility:hidden; /* Internet Explorer */
+    }
+    
+   footer{
+      position: relative; 
+      top:40px;
+      left: 50px;
+      //margin-bottom: -50px; 
+      width: 50%; 
+      height: 40%; 
+      margin-top: 800px;
+      
+    }
+    
+    
+
+    /*PROFILE IMAGE ANIMATE */
+
+    @keyframes profile_image {
+        0% {
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        3.4% {
+            transform: matrix3d(1.032, 0, 0, 0, 0, 1.041, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        4.7% {
+            transform: matrix3d(1.045, 0, 0, 0, 0, 1.06, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        6.81% {
+            transform: matrix3d(1.066, 0, 0, 0, 0, 1.089, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        9.41% {
+            transform: matrix3d(1.088, 0, 0, 0, 0, 1.117, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        10.21% {
+            transform: matrix3d(1.094, 0, 0, 0, 0, 1.123, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        13.61% {
+            transform: matrix3d(1.112, 0, 0, 0, 0, 1.133, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        14.11% {
+            transform: matrix3d(1.114, 0, 0, 0, 0, 1.133, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        17.52% {
+            transform: matrix3d(1.121, 0, 0, 0, 0, 1.124, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        18.72% {
+            transform: matrix3d(1.121, 0, 0, 0, 0, 1.119, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        21.32% {
+            transform: matrix3d(1.12, 0, 0, 0, 0, 1.107, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        24.32% {
+            transform: matrix3d(1.115, 0, 0, 0, 0, 1.096, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        25.23% {
+            transform: matrix3d(1.113, 0, 0, 0, 0, 1.094, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        29.03% {
+            transform: matrix3d(1.106, 0, 0, 0, 0, 1.09, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        29.93% {
+            transform: matrix3d(1.105, 0, 0, 0, 0, 1.09, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        35.54% {
+            transform: matrix3d(1.098, 0, 0, 0, 0, 1.096, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        36.74% {
+            transform: matrix3d(1.097, 0, 0, 0, 0, 1.098, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        41.04% {
+            transform: matrix3d(1.096, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        44.44% {
+            transform: matrix3d(1.097, 0, 0, 0, 0, 1.103, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        52.15% {
+            transform: matrix3d(1.099, 0, 0, 0, 0, 1.101, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        59.86% {
+            transform: matrix3d(1.101, 0, 0, 0, 0, 1.099, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        63.26% {
+            transform: matrix3d(1.101, 0, 0, 0, 0, 1.099, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        75.28% {
+            transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        85.49% {
+            transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        90.69% {
+            transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        100% {
+            transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+    }
+
+
+    /*NAME ANIMATE */
+
+    aside:hover header h1 {
+        animation: name_and_job 1500ms linear both;
+        animation-delay: 0.4s;
+    }
+
+    @keyframes name_and_job {
+        0% {
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1);
+        }
+        1.3% {
+            transform: matrix3d(3.905, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -237.02, 0, 0, 1);
+        }
+        2.55% {
+            transform: matrix3d(4.554, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -182.798, 0, 0, 1);
+        }
+        4.1% {
+            transform: matrix3d(4.025, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -125.912, 0, 0, 1);
+        }
+        5.71% {
+            transform: matrix3d(3.039, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -79.596, 0, 0, 1);
+        }
+        8.11% {
+            transform: matrix3d(1.82, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -31.647, 0, 0, 1);
+        }
+        8.81% {
+            transform: matrix3d(1.581, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -21.84, 0, 0, 1);
+        }
+        11.96% {
+            transform: matrix3d(1.034, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.825, 0, 0, 1);
+        }
+        12.11% {
+            transform: matrix3d(1.023, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.53, 0, 0, 1);
+        }
+        15.07% {
+            transform: matrix3d(0.947, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.662, 0, 0, 1);
+        }
+        16.12% {
+            transform: matrix3d(0.951, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 13.007, 0, 0, 1);
+        }
+        27.23% {
+            transform: matrix3d(1.001, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.352, 0, 0, 1);
+        }
+        27.58% {
+            transform: matrix3d(1.001, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.121, 0, 0, 1);
+        }
+        38.34% {
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.311, 0, 0, 1);
+        }
+        40.09% {
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.291, 0, 0, 1);
+        }
+        50% {
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.048, 0, 0, 1);
+        }
+        60.56% {
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.007, 0, 0, 1);
+        }
+        82.78% {
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        100% {
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+    }
+
+
